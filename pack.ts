@@ -8,7 +8,7 @@ export const pack = coda.newPack();
 /*                               Authentication                               */
 /* -------------------------------------------------------------------------- */
 
-// Allow the pack to make requests to Telegra.ph.
+// Allow the pack to make requests to Telegra.ph..
 pack.addNetworkDomain("telegra.ph");
 
 // System-wide authentication to the Telegra.ph API, using an API key in the query string. See https://telegra.ph/api#createAccount.

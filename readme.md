@@ -2,13 +2,23 @@
 
 **Seamless Integration between Coda.io and Telegraph Publishing Platform**
 
-A pack that brings Telegraph's minimalist publishing capabilities directly into Coda.io, enabling efficient content management and collaboration.
+A pack that brings Telegraph's minimalist publishing capabilities directly into Coda.io, enabling efficient content management and collaboration. Built on top of the [Telegra.ph API](https://telegra.ph/api).
 
 ### Overview
 - Centralized management of Telegraph pages within Coda.io
 - Streamlined content creation and publishing workflow
 - Real-time page analytics and view tracking
 - Secure account management features
+
+#### Telegraph API Integration
+This pack leverages the official Telegraph API to provide its functionality:
+- `/createAccount` - Account creation and token management
+- `/editAccountInfo` - Account information updates
+- `/createPage` - Page creation and publishing
+- `/editPage` - Content updates and modifications
+- `/getPageList` - Content listing and organization
+- `/getPage` - Content retrieval
+- `/getViews` - Analytics and statistics
 
 ### Tech Stack
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
